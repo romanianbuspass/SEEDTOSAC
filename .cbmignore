@@ -1,0 +1,8 @@
+# python virtualenvs
+OmegaBox/venv/
+venv/
+__pycache__/
+
+# build artifacts
+release/
+build/

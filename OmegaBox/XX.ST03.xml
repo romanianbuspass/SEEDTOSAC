@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>GaiaCode pipeline auto-scan</Source>
+  <Module>ObsPy 1.5.0</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2026-08-18T09:59:30.385461Z</Created>
+  <Network code="XX">
+    <Station code="ST03" startDate="2026-08-16T00:00:00.000000Z">
+      <Latitude unit="DEGREES">0.0</Latitude>
+      <Longitude unit="DEGREES">0.0</Longitude>
+      <Elevation>0.0</Elevation>
+      <Site>
+        <Name>ST03 (auto-generated — verify coordinates)</Name>
+      </Site>
+      <CreationDate>2026-08-16T00:00:00.000000Z</CreationDate>
+      <Channel code="BNE" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>20.0</SampleRate>
+      </Channel>
+      <Channel code="BNN" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>20.0</SampleRate>
+      </Channel>
+      <Channel code="BNZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>20.0</SampleRate>
+      </Channel>
+      <Channel code="ENE" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>100.0</SampleRate>
+      </Channel>
+      <Channel code="ENN" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>100.0</SampleRate>
+      </Channel>
+      <Channel code="ENZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>100.0</SampleRate>
+      </Channel>
+      <Channel code="HNE" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>200.0</SampleRate>
+      </Channel>
+      <Channel code="HNN" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>200.0</SampleRate>
+      </Channel>
+      <Channel code="HNZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>200.0</SampleRate>
+      </Channel>
+      <Channel code="LNE" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LNN" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LNZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="MNE" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>5.0</SampleRate>
+      </Channel>
+      <Channel code="MNN" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>5.0</SampleRate>
+      </Channel>
+      <Channel code="MNZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>5.0</SampleRate>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

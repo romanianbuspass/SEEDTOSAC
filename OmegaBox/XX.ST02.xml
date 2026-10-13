@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>GaiaCode pipeline auto-scan</Source>
+  <Module>ObsPy 1.5.0</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2026-08-18T09:59:26.926647Z</Created>
+  <Network code="XX">
+    <Station code="ST02" startDate="2026-08-16T00:00:00.000000Z">
+      <Latitude unit="DEGREES">0.0</Latitude>
+      <Longitude unit="DEGREES">0.0</Longitude>
+      <Elevation>0.0</Elevation>
+      <Site>
+        <Name>ST02 (auto-generated — verify coordinates)</Name>
+      </Site>
+      <CreationDate>2026-08-16T00:00:00.000000Z</CreationDate>
+      <Channel code="BHC" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>10.0</SampleRate>
+      </Channel>
+      <Channel code="BHE" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>10.0</SampleRate>
+      </Channel>
+      <Channel code="BHN" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>10.0</SampleRate>
+      </Channel>
+      <Channel code="BHZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>10.0</SampleRate>
+      </Channel>
+      <Channel code="FHC" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1000.0</SampleRate>
+      </Channel>
+      <Channel code="FHE" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>1000.0</SampleRate>
+      </Channel>
+      <Channel code="FHN" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>1000.0</SampleRate>
+      </Channel>
+      <Channel code="FHZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>1000.0</SampleRate>
+      </Channel>
+      <Channel code="HHC" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>200.0</SampleRate>
+      </Channel>
+      <Channel code="HHE" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>200.0</SampleRate>
+      </Channel>
+      <Channel code="HHN" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>200.0</SampleRate>
+      </Channel>
+      <Channel code="HHZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>200.0</SampleRate>
+      </Channel>
+      <Channel code="LE1" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LE2" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LE3" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LE4" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LE5" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LE6" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LE7" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LE8" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LEA" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LEB" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LEC" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LED" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LEE" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LEF" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LHC" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LHE" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LHN" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+      <Channel code="LHZ" startDate="2026-08-16T00:00:00.000000Z" locationCode="01">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>1.0</SampleRate>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

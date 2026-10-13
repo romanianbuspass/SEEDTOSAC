@@ -1,0 +1,23 @@
+#
+# Nmake file - Windows version
+# Use 'nmake -f Makefile.win'
+
+NODEBUG=1
+
+INCS = /I..\libmseed
+OPTS = -D_CRT_SECURE_NO_WARNINGS -DNOFDZIP
+LIBS = ..\libmseed\libmseed.lib
+
+BIN = ..\mseed2sac.exe
+
+all: $(BIN)
+
+$(BIN):	mseed2sac.obj
+	link.exe /nologo /out:$(BIN) $(LIBS) mseed2sac.obj
+
+.c.obj:
+	$(CC) /nologo $(CFLAGS) $(INCS) $(OPTS) /c $<
+
+# Clean-up directives
+clean:
+	-del a.out core *.o *.obj *% *~ $(BIN)

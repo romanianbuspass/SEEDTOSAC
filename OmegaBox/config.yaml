@@ -1,0 +1,48 @@
+# ============================================================================
+# GaiaCode OmegaBox -> SAC pipeline configuration
+# ============================================================================
+# One entry per OmegaBox unit. The daemon mirrors each unit's /data/
+# directory with wget, then converts every mirrored miniSEED file to SAC
+# with station metadata injected from the unit's StationXML.
+#
+# NOTE: the OmegaBox does NOT serve StationXML metadata. Keep one XML file
+# per station on this host (convention: <net>.<sta>.<loc>.xml, e.g.
+# XX.ST01.00.xml) and point stationxml_path at it.
+#
+# SANITIZED EXAMPLE — replace unit names, URLs, IPs and station codes with
+# your own deployment values before use.
+
+archive_paths:
+  # Local mirror of the remote OmegaBox file trees (wget -P target).
+  # Recommended: a dedicated data volume — see README ("Where the data lives").
+  sds_root: /data/seismic/omegabox_mirror
+  # Converted SAC output tree (one subdirectory per station).
+  sac_root: /data/seismic/sac_archive
+
+  # Fallback for small single-disk deployments:
+  # sds_root: data/seismic/omegabox_mirror
+  # sac_root: data/seismic/sac_archive
+
+# Optional pipeline behaviour
+settings:
+  wget_timeout_s: 300        # per-station mirror timeout (seconds)
+  log_file: pipeline.log     # relative to the pipeline directory
+  mseed_extensions: [".mseed", ".miniseed", ".seed"]
+
+stations:
+  # NOTE: 'name' is the UNIT label (mirror dir); the StationXML must
+  # describe the SEED station codes the unit actually archives.
+  # Example mapping (sanitized): UNIT1 serves XX.ST01, UNIT2 serves
+  # XX.ST02, UNIT3 serves XX.ST03 (discovered by scanning the mirrored
+  # data with _scan_codes.py).
+  - name: UNIT1
+    web_url: http://<INTERNAL_IP>/data/
+    stationxml_path: /opt/seedtosac/OmegaBox/XX.ST01.xml
+
+  - name: UNIT2
+    web_url: http://<INTERNAL_IP>/data/
+    stationxml_path: /opt/seedtosac/OmegaBox/XX.ST02.xml
+
+  - name: UNIT3
+    web_url: http://<INTERNAL_IP>/data/
+    stationxml_path: /opt/seedtosac/OmegaBox/XX.ST03.xml
